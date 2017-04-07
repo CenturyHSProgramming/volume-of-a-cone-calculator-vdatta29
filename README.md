@@ -1,16 +1,19 @@
-# HeatIndexCalculator.py
+# ConeVolumeCalculator.py
 A Python 3 Math challenge using unit tests.
+**Goal:**
+----------
+Write a python function that calculates the volume of a cone and rounds it to the 2nd digit.
 
 **Inputs:**
 ----------
-* **calculateHeatIndex()** receives two inputs (both integers):
-  * receives relativeHumidity as an integer
-  * receives temperature as an integer
+* **calculateConeVolume()** receives two inputs (both floats):
+  * receives baseRadius as float
+  * receives height as float
 
 **Outputs:**
 ------------
-* **calculateHeatIndex()** returns 1 output (an integer):
-    * this is the HeatIndex temperature
+* **calculateConeVolume()** returns 1 output (a float) rounded to the 2nd digit:
+    * you will need to use a the round() function
 
 **Notes/Challenge Opportunity**
 -------------
@@ -19,8 +22,8 @@ A Python 3 Math challenge using unit tests.
 **Examples:**
 inputs => output/s
 --------------------------------
-* 40 80 => 80
-* 40 96 => 101
+* 20 10 => 4188.79
+* 100 10 => 104719.76
 * 40 108 => 136
 * 65 80 => 82
 * 65 90 => 103
